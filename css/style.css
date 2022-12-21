@@ -30,7 +30,7 @@ html {
 .btn {
     background-color: #2B2B2B;
     color: white;
-    border: none;
+    border: 1px solid white;
 }
 
 /* navBar */
