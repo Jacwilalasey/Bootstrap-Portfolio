@@ -21,9 +21,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Work</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link active" href="#about">About</a>
+            <a class="nav-item nav-link" href="#work">Work</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
           </div>
         </div>
     </nav>
@@ -38,33 +38,27 @@
       </div>
 
     <!-- About Me -->
-    <section class="about">
-        <div class="row">
-            <div class="about-container col-lg-6 col-sm-12 mx-auto">
-                <h2>About Me</h2>
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <section class="aboutGrid">
+            <div id="about-text" class="aboutGridArea">
                 <p>
                     Senior delivery leader with an indelible reputation for delivering inventive business strategies and focused solutions that improve day-to-day running of the business. Recognised for transforming operational systems and processes profitably and productively. Broad experience building made-to-measure strategies and policies across multiple industries at all levels of management, always focused on providing positive and sustainable solutions to the organisation and the end user.
                 </p>
-                <p>
-                    HTML <BR></BR>
-                    CSS <BR></BR>
-                    Bootstrap <BR></BR>
-                    JavaScript <BR></BR>
-                    React <BR></BR>
-                    Node <BR></BR>
-                </p>
-                <!-- <p>
-                    HTML | CSS | Bootstrap | JavaScript | React | Node
-                </p> -->
-                <h4>My Skill Stack</h4>
-
             </div>
-        </div>
-
+            <div id="about-stack" class="aboutGridArea">
+                <h4 class="html">HTML</h4>
+                <h4 class="css">CSS</h4>
+                <h4 class="BS">Bootstrap</h4>
+                <h4 class="JS">JavaScript</h4>
+                <h4 class="react">React</h4>
+                <h4 class="node">Node</h4>
+            </div>
+        </section>
     </section>
 
     <!-- Portfolio -->
-    <h2>My Work</h2>
+    <h2 id="work">My Work</h2>
 
     <div class="container-fluid">
         <div class="row">

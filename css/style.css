@@ -13,11 +13,12 @@ h2 {
 
 h3, h4 {
     text-align: center;
-    border-bottom: 2.5px solid white;
-    width: 200px;
-    margin: 20px auto;
     padding-bottom: 10px;
     color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* navBar */
@@ -35,7 +36,7 @@ h3, h4 {
   }
   .navbar-brand img {
     padding-right: 15px;
-    width: 65px;
+    width: 85px;
   }
   .nav-item {
     margin: 0px 15px;
@@ -43,6 +44,10 @@ h3, h4 {
 
   .customNav a {
     color: white !important;
+  }
+
+  .navbar-nav a:hover {
+    color: gray !important;
   }
 
 /* Jumbotron  */
@@ -71,13 +76,70 @@ h3, h4 {
 
 /* About */
 
+#aboutGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "about-text about-text about-stack";
+}
+
+#about-text {
+    grid-area: "about-text";
+}
+
+#about-stack {
+    grid-area: "about-stack";
+}
+
+
+.aboutGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+}
+
 .about p {
     font-size: larger;
     color: white;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
 }
 
+.html:hover {
+    color: #E44D26;
+    text-shadow: 1px 1px 10px #e44d26;
+}
+
+.css:hover {
+    color: #1C73BA;
+    text-shadow: 1px 1px 10px #1C73BA;
+}
+
+.BS:hover {
+    color: #523A76;
+    text-shadow: 1px 1px 10px #523A76;
+}
+
+.JS:hover {
+    color: #E4D04A;
+    text-shadow: 1px 1px 10px #E4D04A;
+}
+
+.react:hover {
+    color: #5BCFEE;
+    text-shadow: 1px 1px 10px #5BCFEE;
+}
+
+.node:hover {
+    color: #71AC59;
+    text-shadow: 1px 1px 10px #71AC59;
+}
 
 /* Cards */
 
