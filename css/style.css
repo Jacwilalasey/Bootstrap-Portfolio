@@ -33,6 +33,10 @@ html {
     border: 1px solid white;
 }
 
+/* .navbar-toggler {
+    border: white;
+} */
+
 /* navBar */
 .customNav {
     position: sticky;
@@ -101,6 +105,30 @@ html {
     color: white;
     text-align: center;
     margin: 20px;
+}
+
+.html {
+    text-shadow: 1px 1px 10px #e44d26;
+}
+
+.css {
+    text-shadow: 1px 1px 10px #1C73BA;
+}
+
+.BS {
+    text-shadow: 1px 1px 10px #523A76;
+}
+
+.JS {
+    text-shadow: 1px 1px 10px #E4D04A;
+}
+
+.react {
+    text-shadow: 1px 1px 10px #5BCFEE;
+}
+
+.node {
+    text-shadow: 1px 1px 10px #71AC59;
 }
 
 .html:hover {
