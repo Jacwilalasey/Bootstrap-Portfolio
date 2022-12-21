@@ -21,6 +21,18 @@ html {
     scroll-behavior: smooth;
 }
 
+.btn-lg {
+    background-color: white;
+    color: #2B2B2B;
+    border: 1px solid white;
+}
+
+.btn {
+    background-color: #2B2B2B;
+    color: white;
+    border: none;
+}
+
 /* navBar */
 .customNav {
     position: sticky;
@@ -76,32 +88,12 @@ html {
 
 /* About */
 
-#aboutGrid {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 400px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "about-text about-text about-stack";
+.about-context {
+    margin: 20px auto;
 }
 
-#about-text {
-    grid-area: "about-text";
-}
-
-#about-stack {
-    grid-area: "about-stack";
-}
-
-
-.aboutGridArea {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    cursor: pointer;
-    display: grid;
-    align-content: end;
+.about-stack {
+    margin-top: 40px;
 }
 
 .about p {
@@ -142,6 +134,10 @@ html {
 }
 
 /* Cards */
+
+#work {
+    margin-top: 35px;
+}
 
 .cardContainer {
     margin-bottom: 15px;
