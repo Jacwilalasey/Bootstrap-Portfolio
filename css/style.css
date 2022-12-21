@@ -1,3 +1,24 @@
+body {
+    background-color: #2A2A2B;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 5px solid white;
+    width: 300px;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    color: white;
+}
+
+h3, h4 {
+    text-align: center;
+    border-bottom: 2.5px solid white;
+    width: 200px;
+    margin: 20px auto;
+    padding-bottom: 10px;
+    color: white;
+}
 
 /* navBar */
 .customNav {
@@ -48,5 +69,63 @@
     padding: 1.5em;
   }
 
+/* About */
+
+.about p {
+    font-size: larger;
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
+
 /* Cards */
+
+.cardContainer {
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card img {
+    max-width: 650px;
+    min-height: 300px;
+    max-height: 300px;
+    opacity: .75;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.card img:hover {
+    max-width: 650px;
+    max-height: 300px;
+    opacity: 1;
+}
+
+.btn {
+    background-color: ;
+}
+
+/* Footer */
+
+footer p {
+    color: white;
+    text-align: center;
+    margin: 40px;
+}
+
+footer img {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
