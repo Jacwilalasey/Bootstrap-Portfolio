@@ -92,6 +92,10 @@ html {
 
 /* About */
 
+.about {
+    border: 5px solid white;
+}
+
 .about-context {
     margin: 20px auto;
 }
