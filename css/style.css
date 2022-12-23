@@ -216,5 +216,19 @@ footer img {
     max-height: 100px;
     margin: 0 auto;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
+
+footer img:hover {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 50%;
+}
+
 
