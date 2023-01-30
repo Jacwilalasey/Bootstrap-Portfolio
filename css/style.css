@@ -1,5 +1,6 @@
 body {
     background-color: #2A2A2B;
+    cursor: default;
 }
 
 h2 {
@@ -27,11 +28,23 @@ html {
     border: 1px solid white;
 }
 
+.btn-lg:hover{
+    background-color: #687FC0;
+    color: white;
+    border: 1px solid white;
+}
+
 .btn {
     background-color: #2B2B2B;
     color: white;
     border: 1px solid white;
 }
+
+.btn:hover {
+    background-color: #687FC0;
+    color: white;
+    border: 1px solid white;
+} 
 
 /* .navbar-toggler {
     border: white;
@@ -134,6 +147,10 @@ html {
     text-shadow: 1px 1px 10px #71AC59;
 }
 
+.JQ {
+    text-shadow: 1px 1px 10px #0769AD; 
+}
+
 .html:hover {
     color: #E44D26;
     text-shadow: 1px 1px 10px #e44d26;
@@ -162,6 +179,11 @@ html {
 .node:hover {
     color: #71AC59;
     text-shadow: 1px 1px 10px #71AC59;
+}
+
+.JQ:hover {
+    color: #0769AD;
+    text-shadow: 1px 1px 10px #0769AD; 
 }
 
 /* Cards */
@@ -197,7 +219,14 @@ html {
 }
 
 .btn {
-    background-color: ;
+    background-color: #2A2A2B;
+    width: 150px;
+}
+
+.btn-disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
 }
 
 /* Footer */
