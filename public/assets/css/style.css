@@ -108,19 +108,32 @@ html {
     border-right: .15em solid white;
     white-space: nowrap;
     margin: 0 auto;
-    animation: 
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
-  }
+    border-right: .15em solid transparent;
+    animation:
+        typing 4s steps(50),
+        blink-caret 4.2s;
+}
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
+    from {
+        width: 0
+    }
+
+    to {
+        width: 77%
+    }
+}
+
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: white; }
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #edede9;
+    }
 }
 
 /* About */
@@ -214,6 +227,7 @@ html {
 
 .cardContainer {
     margin-bottom: 15px;
+    /* max-height: 250px; */
 }
 
 .card {
