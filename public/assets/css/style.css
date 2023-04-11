@@ -233,6 +233,8 @@ html {
 .card {
     margin: 0 auto;
     text-align: center;
+    width: 450px;
+    height: 550px;
 }
 
 .card img {
